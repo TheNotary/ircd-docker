@@ -1,4 +1,4 @@
 #!/bin/bash
 
 service ngircd start
-tail -f /var/log/syslog
+tail -f /var/log/dmesg
