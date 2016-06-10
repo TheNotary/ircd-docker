@@ -7,6 +7,6 @@ run:
 	docker run -d -p 6667:6667 ${USER}/${DOCKER_IMAGE_NAME}
 
 console:
-	docker run -it ${USER}/${DOCKER_IMAGE_NAME} bash
+	docker run -p 6667:6667 -it ${USER}/${DOCKER_IMAGE_NAME} --entrypoint /bin/bash
 
 .PHONY: build
