@@ -1,4 +1,4 @@
-DOCKER_IMAGE_NAME = ngircd
+DOCKER_IMAGE_NAME = ircd-docker
 
 build:
 	docker build -t ${USER}/${DOCKER_IMAGE_NAME} .
