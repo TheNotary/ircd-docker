@@ -1,7 +1,7 @@
 docker-ircd
 ===========
 
-Very simple docker container for an IRC server, not yet production ready
+Very simple docker container for an IRC server.
 
 IRC server
 ---------
